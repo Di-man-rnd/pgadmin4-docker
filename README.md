@@ -16,6 +16,8 @@ To see this image in action, run the following command;
 
 ```bash
 $ docker run --rm -p 5050:5050 thajeztah/pgadmin4
+OR
+$ docker run --rm -p 5050:5050 -v /home/name/dumps:/mnt thajeztah/pgadmin4
 ```
 
 This starts a one-off container in non-detached mode, and container logs are
